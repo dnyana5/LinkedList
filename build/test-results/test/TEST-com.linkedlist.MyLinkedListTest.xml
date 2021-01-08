@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedlist.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-08T14:50:01" hostname="DESKTOP-BLCU99U" time="0.007">
+<testsuite name="com.linkedlist.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-08T15:08:30" hostname="DESKTOP-BLCU99U" time="0.008">
   <properties/>
-  <testcase name="given3NumberWhenDeleteFirstElementShouldPassLinkedListTest" classname="com.linkedlist.MyLinkedListTest" time="0.007"/>
+  <testcase name="given3NumberWhenDeleteLastElementShouldPassLinkedListTest" classname="com.linkedlist.MyLinkedListTest" time="0.008"/>
   <system-out><![CDATA[My Nodes: 56->30->70
-My Nodes: 30->70
+My Nodes: 56->30
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
