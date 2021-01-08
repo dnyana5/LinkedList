@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedlist.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-08T15:24:02" hostname="DESKTOP-BLCU99U" time="0.006">
+<testsuite name="com.linkedlist.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-08T15:28:04" hostname="DESKTOP-BLCU99U" time="0.007">
   <properties/>
-  <testcase name="given3NumberWhenInsertingInBetweenShouldPassLinkedListTest" classname="com.linkedlist.MyLinkedListTest" time="0.006"/>
+  <testcase name="given3NumberWhenDeleteElementShouldPassLinkedListTest" classname="com.linkedlist.MyLinkedListTest" time="0.007"/>
   <system-out><![CDATA[My Nodes: 56->30->40->70
+4
+My Nodes: 56->30->70
+3
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
