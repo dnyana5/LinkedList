@@ -38,12 +38,18 @@ public class MyLinkedList {
         newINode.setNext(tempNode);
     }
 
+    public INode pop() {
+        INode tempNode = this.head;
+        this.head = head.getNext();
+        return tempNode;
+    }
+
     public void printMyNodes() {
         StringBuilder myNodes = new StringBuilder("My Nodes: ");
         INode tempNode = head;
         while(tempNode.getNext() != null) {
             myNodes.append(tempNode.getKey());
-            if(!tempNode.equals(tail))
+            if (!tempNode.equals(tail))
                 myNodes.append("->");
             tempNode = tempNode.getNext();
         }
